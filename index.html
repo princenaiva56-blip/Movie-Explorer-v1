@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        
+        <section class="header">
+            <h1 class="title">Movie Explorer</h1>
+            <p class="menu">⋮</p>
+            <div class="historyCard hidden"></div>
+            <h4 class="subtitle">Search for your favorite movie</h4>
+        </section>
+
+        <section class="search-section">
+        <div class="searchbar">
+            <input type="text" class="search" placeholder="Search a Movie..">
+            <button class="submit">Search</button>
+         
+        </div>
+
+   <div class="search-history">
+                <button class="history-btn">Search History</button>
+            <div class="historyCard hidden"></div>
+        </div>
+
+        </section>
+
+        <p class="loading"></p>
+        <div class="movie-card">
+            <div class="poster">
+                <img id="poster" src="">
+            </div>
+            <div class="details">
+                <p id="movie-title"></p>
+                <p id="year" class="detail"></p>
+                <p id="genre" class="detail"></p>
+                <p id="rating" class="detail"></p>
+                <p id="runtime" class="detail"></p>
+                <p id="plot" class="detail"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
