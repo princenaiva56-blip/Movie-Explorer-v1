@@ -285,7 +285,7 @@ font-weight: 600;
 
     .historyCard{
         position: absolute;
-        left: 200px;
+        right: 0;
         top: 45px;
     }
     
